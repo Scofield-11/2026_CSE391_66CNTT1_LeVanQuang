@@ -1,0 +1,49 @@
+/* TODO 1: Universal selector */
+* { margin: 0; padding: 0; }
+
+/* TODO 2: Type selector */
+body { font-family: Arial, sans-serif; background-color: #f5f5f5; }
+
+/* TODO 3: ID selector */
+#main-header { background-color: #333; color: white; text-align: center; padding: 20px; }
+
+/* TODO 4: Class selector */
+.nav-link { color: #333; text-decoration: none; padding: 10px 15px; }
+
+/* TODO 5: Group selector */
+h1, h2, h3 { font-family: 'Georgia', serif; }
+
+/* TODO 6: Descendant selector */
+nav a { display: inline-block; margin: 0 10px; }
+
+/* TODO 7: Pseudo-class selector */
+a:hover { color: #ff6600; background-color: #eee; }
+
+/* Bước 1 */
+* { box-sizing: border-box; }
+
+/* Bước 2 */
+.posts { text-align: center; margin: 20px 0; max-width: 100%; }
+
+/* Bước 3 */
+.card {
+    width: calc(33.33% - 25px); /* Trừ đi khoảng cách margin */
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 8px;
+    vertical-align: top; /* Giúp các thẻ card bằng nhau về trục ngang */
+}
+
+/* Bước 4 */
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.btn:hover { background: #0056b3; }

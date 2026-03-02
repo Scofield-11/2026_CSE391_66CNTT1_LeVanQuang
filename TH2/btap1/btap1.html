@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Flexbox</title>
+    <link rel="stylesheet" href="btap1.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2 class="form-title">Get in touch with us by filling contact form below</h2>
+        
+        <form action="#">
+            <div class="form-row flex-row">
+                <input type="text" placeholder="* Enter your full name">
+                <input type="email" placeholder="* Enter your email address">
+            </div>
+
+            <div class="form-row">
+                <input type="text" placeholder="Enter your subject" class="full-width">
+            </div>
+
+            <div class="form-row">
+                <textarea placeholder="* Your message here..." rows="10" class="full-width"></textarea>
+            </div>
+
+            <div class="form-footer">
+                <button type="button" class="btn-submit">Send message</button>
+                <span class="notice-text">* Please fill all required form field, thanks!</span>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+/* Reset cơ bản */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    padding: 20px;
+}
+
+/* --- Tiêu đề bài tập màu xanh --- */
+.exercise-header {
+    background-color: #90d8f0; /* Màu xanh nhạt */
+    padding: 10px 15px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* --- Khung viền đen chứa Form --- */
+.form-container {
+    border: 1px solid #000;
+    padding: 30px;
+    max-width: 900px; /* Giới hạn chiều rộng giống trong hình */
+}
+
+/* Tiêu đề trong form */
+.form-title {
+    color: #444;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* --- Cấu trúc các hàng trong Form --- */
+.form-row {
+    margin-bottom: 15px;
+}
+
+/* Hàng dùng Flexbox để chia 2 cột */
+.flex-row {
+    display: flex;
+    gap: 20px; /* Khoảng cách giữa 2 ô input */
+}
+
+/* Các ô input trong hàng Flexbox sẽ tự động chia đều không gian */
+.flex-row input {
+    flex: 1; 
+}
+
+/* Định dạng chung cho Input và Textarea */
+input, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+}
+
+/* Thay đổi màu chữ của placeholder */
+input::placeholder, textarea::placeholder {
+    color: #aaa;
+}
+
+/* Class để input/textarea chiếm 100% chiều rộng */
+.full-width {
+    width: 100%;
+}
+
+textarea {
+    resize: vertical; /* Chỉ cho phép kéo giãn theo chiều dọc */
+}
+
+/* --- Footer của Form (Nút bấm và ghi chú) --- */
+.form-footer {
+    display: flex; /* Dùng Flexbox */
+    justify-content: space-between; /* Đẩy 2 phần tử ra 2 đầu */
+    align-items: flex-end; /* Căn chỉnh theo chiều dọc */
+    margin-top: 5px;
+}
+
+/* Nút Gửi */
+.btn-submit {
+    background-color: #73c5fa;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 15px;
+    border-radius: 4px; /* Bo góc nhẹ */
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #5baef0;
+}
+
+/* Chữ ghi chú bên phải */
+.notice-text {
+    color: #777;
+    font-size: 14px;
+}

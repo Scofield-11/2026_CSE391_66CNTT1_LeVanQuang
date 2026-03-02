@@ -1,0 +1,97 @@
+    /* Reset cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Sử dụng font chữ dạng Monospace để giống thiết kế */
+    font-family: Consolas, "Courier New", monospace;
+    color: #444;
+    background-color: #fff;
+    padding: 40px;
+}
+
+/* Khung viền xanh nhạt bao quanh */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 3px solid #b3e5fc; /* Viền màu xanh biển nhạt */
+    padding: 60px 40px;
+}
+
+/* Tiêu đề chính */
+.main-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal; /* Tiêu đề không in đậm gắt */
+    margin-bottom: 60px;
+    line-height: 1.5;
+    color: #222;
+}
+
+/* Bao bọc 2 cột bằng Flexbox */
+.content-wrapper {
+    display: flex;
+    gap: 40px; /* Khoảng cách giữa thẻ bên trái và chữ bên phải */
+    align-items: flex-start;
+}
+
+/* === CỘT TRÁI: Thẻ (Card) === */
+.left-card {
+    flex: 0 0 35%; /* Cột trái chiếm 35% chiều rộng */
+    background-color: #fff;
+    padding: 40px;
+    /* Hiệu ứng đổ bóng mờ xung quanh thẻ */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); 
+    border-radius: 4px;
+}
+
+.left-card h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.left-card p {
+    font-size: 13px;
+    line-height: 1.8;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+/* Thông tin tác giả */
+.author-info p {
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+.author-name {
+    font-weight: bold;
+    color: #333 !important; /* Ghi đè màu xám ở trên */
+}
+
+.author-title {
+    color: #64b5f6 !important; /* Chữ màu xanh dương nhạt */
+    font-size: 11px !important;
+}
+
+/* === CỘT PHẢI: Văn bản === */
+.right-content {
+    flex: 1; /* Cột phải chiếm phần diện tích còn lại */
+}
+
+.right-content p {
+    font-size: 14px;
+    line-height: 2;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* Đoạn văn bản in đậm */
+.right-content .bold-text {
+    font-weight: bold;
+    color: #222;
+}

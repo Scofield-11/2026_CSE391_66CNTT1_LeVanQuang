@@ -46,3 +46,26 @@
 - **File chạy:** [Xem btap3.html](TH2/btap3/btap3.html)
 - **File CSS:** [Xem btap3.css](TH2/btap3/btap3.css)
 - **Mô tả:** Thực hiện code CSS chia cột layout và tạo thẻ nổi (Card) đổ bóng theo nội dung design.
+
+---
+# BÀI TẬP THỰC HÀNH SỐ 04
+## Danh sách bài nộp
+
+### 🔹 Bài tập 1
+- **File chạy:** [Xem ex1.html](TH4/ex1/ex1.html)
+- **File CSS:** [Xem ex1.css](TH4/ex1/ex1.css)
+- **File JS:** [Xem ex1.js](TH4/ex1/ex1.js)
+- **Ảnh kết quả:** [Xem ảnh minh họa](TH4/ex1/ex1.png)
+
+### 🔹 Bài tập 2
+- **File chạy:** [Xem ex2.html](TH4/ex2/ex2.html)
+- **File CSS:** [Xem ex2.css](TH4/ex2/ex2.css)
+- **File JS:** [Xem ex2.js](TH4/ex2/ex2.js)
+- **Ảnh kết quả:** [Xem ảnh minh họa](TH4/ex2/ex2.png)
+
+### 🔹 Bài tập về nhà
+- **File chạy:** [Xem index.html](TH4/homework/index.html)
+- **File CSS:** [Xem style.css](TH4/homework/style.css)
+- **File JS:** [Xem main.js](TH4/homework/main.js)
+- **Ảnh kết quả:** [Xem ảnh minh họa](TH4/homework/minhhoa.png)
+---

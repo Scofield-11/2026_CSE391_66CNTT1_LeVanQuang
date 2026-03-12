@@ -1,0 +1,101 @@
+/* bai 1.1 */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.form-container {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 6px 15px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.row-warning {
+    background-color: yellow;
+}
+
+.btnXoa {
+    background-color: #dc3545;
+    margin-top: 0;
+}
+
+.btnXoa:hover {
+    background-color: #c82333;
+}
+
+.stats {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* bai 1.2 */
+.filter-container {
+    background: #e9ecef;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.filter-container input, .filter-container select {
+    padding: 5px;
+}
+
+.sortable-col {
+    cursor: pointer;
+    color: #007bff;
+}
+
+.sortable-col:hover {
+    text-decoration: underline;
+}
